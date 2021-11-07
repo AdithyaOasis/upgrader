@@ -1,0 +1,15 @@
+input_features:
+    -
+        name: StudentAnswer
+        type: vector
+    -
+        name: ReferenceAnswer
+        type: vector
+
+output_features:
+    -
+        name: Score
+        type: category
+
+training:
+    epochs: 50
